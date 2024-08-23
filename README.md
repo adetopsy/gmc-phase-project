@@ -11,7 +11,9 @@ This report details the findings, their potential impact, and recommendations fo
 <img width="310" alt="image" src="https://github.com/user-attachments/assets/bd7b284b-83cf-4a9a-b740-ca49856b2c6a">
 
 <img width="453" alt="image" src="https://github.com/user-attachments/assets/d813628e-c2d9-4d16-9420-9d71793cd064">
+
 Methodology:
+
 1. Reconnaissance: Initial scanning using ZAP's standard and AJAX spiders.
 2. Vulnerability Scanning: Automated scans using ZAP's active and passive scanning features.
 3. Manual Verification: Review and analysis of ZAP-generated alerts.

@@ -63,19 +63,18 @@ Risk Ratings Summary
    - URL: http://testphp.vulnweb.com/
    - Risk: High
    - Confidence: Medium
-   - CWE ID: [Specific CWE ID]
    - Description: The application failed to properly sanitize user input before using it in an SQL query.
    - Recommendation: Implement prepared statements and parameterized queries. Validate and sanitize all user inputs.
 
 2. Cross-Site Scripting (XSS):
-   - URLs: [List of affected URLs]
+   - URLs: http://testphp.vulnweb.com/
    - Risk: High
    - Confidence: Medium
    - Description: The application echoes user-supplied input without proper encoding.
    - Recommendation: Implement proper output encoding and input validation. Consider implementing a Content Security Policy.
 
 3. Missing Anti-CSRF Tokens:
-   - URLs: [List of affected forms/URLs]
+   - URLs: http://testphp.vulnweb.com/
    - Risk: Medium
    - Description: Forms lack anti-CSRF tokens, making them vulnerable to CSRF attacks.
    - Recommendation: Implement anti-CSRF tokens for all state-changing operations.
